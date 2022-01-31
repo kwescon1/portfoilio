@@ -31,6 +31,8 @@ using LEMP, Adminer as db web interface
 
     - composer install
     - php artisan key:generate
+    - npm install
+    - npm run watch / npm run dev
 
 8. Visit the following urls to ensure everything is correctly setup:
 
