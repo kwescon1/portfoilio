@@ -16,3 +16,4 @@ yarn-error.log
 /storage/dbdata
 /public/js
 /public/css
+/public/mix-manifest.json
