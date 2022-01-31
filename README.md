@@ -1,7 +1,7 @@
 # My personal web portfolio
 
 Dockerized laravel app for web portfolio.
-Installed softwares.. ngi
+using LEMP, Adminer as db web interface
 
 ### Softwate Requirements
 
