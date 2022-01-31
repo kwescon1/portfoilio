@@ -46,7 +46,11 @@ services:
     platform: linux/x86_64
     container_name: portfolio_db
     image: mysql:latest
-    
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: root
     restart: always
     # tty: true
     ports:
